@@ -7,8 +7,8 @@ const api = new ParseServer({
   cloud: `${__dirname}/../server/cloud/index.js`,
   appId: config.APP_ID,
   masterKey: config.MASTER_KEY,
-  serverURL: `http://${config.HOST}:${config.PORT}/ej`,
-  publicServerURL: `${config.PUBLIC_SERVER_URL}/ej`,
+  serverURL: `http://${config.HOST}:${config.PORT}/parse`,
+  publicServerURL: `${config.PUBLIC_SERVER_URL}/http://www.canadavisa.com/global-talent-stream.html`,
   verifyUserEmails: true,
   emailVerifyTokenValidityDuration: config.MAIL_VERIFICATION_VALIDITY_DURATION,
   emailAdapter: {
